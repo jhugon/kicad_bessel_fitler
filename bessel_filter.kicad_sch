@@ -354,12 +354,17 @@
     (uuid f0591d13-437f-439e-a129-6d813a396434)
   )
 
+  (text "Scaled values for 31.4 rad/s and 50R:\nC1 = 111p\nL1 = 80u5\nC2 = 512p\nL2 = 1u77\nC3 = 1n44"
+    (at 12.7 64.77 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1cd4af6c-793c-49e7-9b9e-bbe79425eb83)
+  )
   (text "5th order Bessel Pi-network low-pass filter\n5 MHz -3dB frequency = 31.4 rad/s\ntime constant = 31.8 ns => rise time = 68 ns\ni/o impedance is 50 ohm"
     (at 12.7 20.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2c3d5c2f-c119-4276-9b7e-33808f1d9396)
   )
-  (text "Useful for trimming L's:\nsqrt(L1C1) = ? rad/s = ? Hz\nsqrt(L1C2) = ? rad/s = ? Hz\nsqrt(L2C2) = ? rad/s = ? Hz\nsqrt(L3C3) = ? rad/s = ? Hz"
+  (text "Useful for trimming L's (from ideal values):\nsqrt(L1C1) = ? rad/s = ? Hz\nsqrt(L1C2) = ? rad/s = ? Hz\nsqrt(L2C2) = ? rad/s = ? Hz\nsqrt(L3C3) = ? rad/s = ? Hz"
     (at 137.16 63.5 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a28f7cd5-79ca-4a60-b39a-7ac7e9ff5fce)
