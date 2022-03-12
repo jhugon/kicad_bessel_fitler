@@ -1,0 +1,7 @@
+.title Basic RC circuit
+r1 1 2 50
+r2 3 0 50
+c1 2 0 {C1:g}
+l1 2 3 {L1:g}
+c2 3 0 {C2:g}
+.end
