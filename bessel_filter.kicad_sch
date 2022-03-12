@@ -59,7 +59,7 @@
           (stroke (width 0.2032) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 1.778 0) (mid 0.2221 1.8083) (end -1.778 0.508)
+        (arc (start 1.778 0) (mid 0.222 1.8083) (end -1.778 0.508)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -354,7 +354,7 @@
     (uuid f0591d13-437f-439e-a129-6d813a396434)
   )
 
-  (text "Scaled values for 31.4 rad/s and 50R:\nC1 = 111p\nL1 = 80u5\nC2 = 512p\nL2 = 1u77\nC3 = 1n44"
+  (text "Scaled values for 31.4 rad/s and 50R:\nC1 = 111p\nL1 = 808n\nC2 = 512p\nL2 = 1u77\nC3 = 1n44"
     (at 12.7 64.77 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1cd4af6c-793c-49e7-9b9e-bbe79425eb83)
