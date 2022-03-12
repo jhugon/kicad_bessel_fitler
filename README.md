@@ -1,82 +1,61 @@
 # LC Bessel Filter in KiCAD
 
-5th order Pi filter
+3th order Pi filter with 50 ohm in/out impedance
 
-## For 5 MHz
+E24 series caps seems available as 1% 1206.
 
-See schematic for component values
+## For 6 MHz
 
-Resonant frequencies:
+27 ns time const and 58 ns rise time
 
-- L1C1 = 16.8 MHz
-- L1C2 = 7.82 MHz
-- L2C2 = 5.29 MHz
-- L2C3 = 3.15 MHz
-
-Finding trimmable L2=1u77 is a problem, since Coilcraft's don't go much over
-1u.
-
-## 9.82 MHz
-
-16 ns time const and 36 ns rise time.
-
-This seems to be the minumum freq you can do with a 5th order LP fitler and
-keep L2 <= 900n.
-
-- C1 = 56p50
-- L1 = 411n0
-- C2 = 260p6
-- L2 = 900n3
-- C3 = 732p0
-
-Resonant frequencies:
-
-- C1L1 = 33.0 MHz
-- C2L1 = 15.4 MHz
-- C2L2 = 10.4 MHz
-- C3L2 = 6.20 MHz
+- L1 = 1u287
+- C1 = 179p
+- C2 = 1n169
 
 Parts:
 
-- L1 = Coilcraft 143-10J12SL
-- L2 = Coilcraft 143-20J12SL
-- C1 = 56p
-- C2 = 270p
-- C3 = 750p
+- L1 = 143-18J12L (unshielded over 1 uH)
+- C1 = 180p
+- C2 = 1200p
 
-## 12 MHz
+## 10 MHz
 
-13 ns time const and 29 ns rise time
+16 ns time const and 35 ns rise time.
 
-- C1 = 46.24p
-- L1 = 336.4n
-- C2 = 213.3p
-- L2 = 736.8n
-- C3 = 599.0p
+- L1 = 772n3
+- C1 = 107p4
+- C2 = 701p4
 
 Parts:
 
-- L1 = Coilcraft 143-09J12SL
-- L2 = Coilcraft 143-16J12SL
-- C1 = 47p
-- C2 = 220p
-- C3 = 560p
+- L1 = 143-17J12SL
+- C1 = 110p
+- C2 = 680p
 
 ## 20 MHz
 
 8 ns time const and 16 ns rise time
 
-- C1 = 27.74p
-- L1 = 201.8n
-- C2 = 128.0p
-- L2 = 442.1n
-- C3 = 359.4p
+- L1 = 386n2
+- C1 = 53p70
+- C2 = 350p7
 
 Parts:
 
-- L1 = Coilcraft 144-07J12SL
-- L2 = Coilcraft 143-11J12SL
-- C1 = 27p
-- C2 = 120p
-- C3 = 330p
+- L1 = 143-09J12SL
+- C1 = 56p
+- C2 = 360p
 
+## 40 MHz
+
+4 ns time const and 8.8 ns rise time
+
+- L1 = 193n1
+- C1 = 26p85
+- C2 = 175p3
+
+Parts:
+
+- L1 = 144-07J12SL
+- C1 = 27p
+- C2 = 180p
