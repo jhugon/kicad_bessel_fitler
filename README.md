@@ -20,7 +20,8 @@ Finding trimmable L2=1u77 is a problem, since Coilcraft's don't go much over
 
 16 ns time const and 36 ns rise time.
 
-This seems to be the minumum freq you can do with a 5th order LP fitler and keep L2 <= 900n.
+This seems to be the minumum freq you can do with a 5th order LP fitler and
+keep L2 <= 900n.
 
 - C1 = 56p50
 - L1 = 411n0
@@ -30,10 +31,10 @@ This seems to be the minumum freq you can do with a 5th order LP fitler and keep
 
 Resonant frequencies:
 
-C1L1 = 33.0 MHz
-C2L1 = 15.4 MHz
-C2L2 = 10.4 MHz
-C3L2 = 6.20 MHz
+- C1L1 = 33.0 MHz
+- C2L1 = 15.4 MHz
+- C2L2 = 10.4 MHz
+- C3L2 = 6.20 MHz
 
 Parts:
 
@@ -42,3 +43,40 @@ Parts:
 - C1 = 56p
 - C2 = 270p
 - C3 = 750p
+
+## 12 MHz
+
+13 ns time const and 29 ns rise time
+
+- C1 = 46.24p
+- L1 = 336.4n
+- C2 = 213.3p
+- L2 = 736.8n
+- C3 = 599.0p
+
+Parts:
+
+- L1 = Coilcraft 143-09J12SL
+- L2 = Coilcraft 143-16J12SL
+- C1 = 47p
+- C2 = 220p
+- C3 = 560p
+
+## 20 MHz
+
+8 ns time const and 16 ns rise time
+
+- C1 = 27.74p
+- L1 = 201.8n
+- C2 = 128.0p
+- L2 = 442.1n
+- C3 = 359.4p
+
+Parts:
+
+- L1 = Coilcraft 144-07J12SL
+- L2 = Coilcraft 143-11J12SL
+- C1 = 27p
+- C2 = 120p
+- C3 = 330p
+
