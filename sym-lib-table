@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "HugonLib")(type "KiCad")(uri "${KIPRJMOD}/libraries/HugonLib.kicad_sym")(options "")(descr ""))
+)

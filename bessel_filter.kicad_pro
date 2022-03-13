@@ -396,9 +396,7 @@
         "microvia_diameter": 0.508,
         "microvia_drill": 0.254,
         "name": "Thin",
-        "nets": [
-          "/Timer_out"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
