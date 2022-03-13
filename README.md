@@ -4,6 +4,15 @@
 
 E24 series caps seems available as 1% 1206.
 
+Coilcraft makes variable inductors and fixed 1206CS series in E12 values.
+
+From SPICE studies on 10 MHz, it seems that even 5% values for all components
+will be fine. There is already a bit of ripple at the end of the impulse
+response, and the component variation is smaller than the ripple.
+
+I'm going to make a main branch with a variable inductor as well as another
+branch with a 1206CS fixed inductor.
+
 ## For 6 MHz
 
 27 ns time const and 58 ns rise time
