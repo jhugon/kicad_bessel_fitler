@@ -6,8 +6,8 @@
 
   (title_block
     (title "Bessel Filter")
-    (date "2022-03-12")
-    (rev "0.1")
+    (date "2022-03-13")
+    (rev "1.0")
     (company "HugonLabs")
   )
 
