@@ -68,3 +68,27 @@ Parts:
 - L1 = 144-07J12SL
 - C1 = 27p
 - C2 = 180p
+
+# Sychronously Tuned Filter
+
+For each section:
+
+Q = Qtot * sqrt(2^(1/n)-1)
+
+or
+
+BW = BWtot * sqrt(2^(1/n)-1)
+
+For n = 3, 5, and 7, the sqrt term is: 0.6436, 0.3856, 0.3226
+
+zeta = 2Q, so critically damped is Q = 0.5
+
+So critically damped section Q for n = 3, 5, 7 is: 0.3218, 0.1928, 0.1613
+
+For 10 MHz BWtot, BW for each section for n = 3, 5, 7 is: 6.436, 3.856, 3.226 MHz
+
+A critically damped RLC LP filter has C = 1/(2R omega_0) and L = 2R/(omega_0).
+So for 10 MHz and R = 50 ohms: C = 159.2p and L = 1.592u. That would seem to
+give an input and output impedance of 100 ohms from Z = sqrt(L/C). Cutting the
+total C in half across a pi network may help? But then this Pi network will
+have the wrong BW and Q?

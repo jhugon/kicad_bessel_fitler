@@ -1,0 +1,7 @@
+.title 3rd Order LC circuit
+r1 1 2 50
+r2 100 0 50
+c1 2 0 {C1:g}
+l1 2 100 {L1:g}
+c2 100 0 {C2:g}
+.end
